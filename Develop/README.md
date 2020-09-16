@@ -1,5 +1,5 @@
 
-# d
+# Good Readme
 [![License](https://img.shields.io/badge/License-None-blue.svg)](https://opensource.org/licenses/None)
 ## Table of Contents
  - [Description](#Description)
@@ -13,13 +13,13 @@
  - [Questions](#Questions)
 
 ## Description
-d
+This project will help user create a good readme
 
 ## Keywords
-*d*
+*Node, Javascript, Readme*
 
 ## Contributors
-undefined
+Diane Magana
 
 ## Usage 
 Node,Javascript,Package.JSON
@@ -34,13 +34,13 @@ npm run
 None
 
 ## Deployment
-Live Recording?: youtube.com  
+Live Recording?:   
 
-Screenshot?: pic1
+Screenshot?: questions.JPG
 ![](pic/Deployed.png)
 
 ### Questions
 If you have any further questions about the application:
-Email: d
+Email: dianemagana@outlook.com
 
-GitHub: www.github.com/d
+GitHub: www.github.com/dmagana1
