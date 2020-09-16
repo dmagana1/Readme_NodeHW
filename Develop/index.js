@@ -14,6 +14,7 @@ const questions = [
         message: "What is your Name?"
     },
 
+
     {
         type: "input",
         name: "Username",
@@ -34,8 +35,21 @@ const questions = [
 
     {
         type: "input",
+        name: "Keywords",
+        message: "Name a few Keywords about the Project"
+    },
+
+    {
+        type: "input",
         name: "Description",
         message: "Please Write a Short Descrption of your Project"
+    },
+
+    {
+        type: "checkbox",
+        name: "Usage",
+        message: "Which Programs did you use (Check all that apply)",
+        choices: ["Node", "Javascript", "Package.JSON", "HTML", "CSS" ]
     },
     
     {
@@ -48,12 +62,12 @@ const questions = [
         type: "list",
         name: "License",
         message: "What Kind of License Should your Project Have?",
-        choices: ["MIT", "LLC", "GPL", "LGPL", "GFDL" ]
+        choices: ["MIT", "LLC", "GPL", "LGPL", "GFDL", "None" ]
     },
 
     {
         type: "input",
-        name: "Install",
+        name: "Installation",
         message: "What Command Should be Run to Install Dependencies?",
         default: "npm install"
     },
@@ -63,7 +77,19 @@ const questions = [
         name: "Test",
         message: "What Command Should be Run to Run Tests?",
         default: "npm run"
-    }
+    },
+
+    {
+        type: "input",
+        name: "Recording",
+        message: "Add URL of your Recording?",
+    },
+
+    {
+        type: "input",
+        name: "Screenshot",
+        message: "Add URL of Screenshot"
+    },
 
 ];
 

@@ -4,38 +4,48 @@ function generateMarkdown(data) {
 # ${data.Title}
 [![License](https://img.shields.io/badge/License-${data.License}-blue.svg)](https://opensource.org/licenses/${data.License})
 ## Table of Contents
-> - [Description](#Description)
-> - [Keywords](#Keywords)
-> - [Contributors](#Contributors)
-> - [Usage](#Usage)
-> - [Installation](#Installation)
-> - [Test](#Testing)
-> - [License](#License)
-> - [Deployment](#Deployment)
-> - [Questions](#Questions)
+ - [Description](#Description)
+ - [Keywords](#Keywords)
+ - [Contributors](#Contributors)
+ - [Usage](#Usage)
+ - [Installation](#Installation)
+ - [Test](#Testing)
+ - [License](#License)
+ - [Deployment](#Deployment)
+ - [Questions](#Questions)
+
 ## Description
->${data.Description}
+${data.Description}
+
 ## Keywords
-*${data.Keyword}*
+*${data.Keywords}*
+
 ## Contributors
-${data.Contribute}
+${data.Contributors}
+
 ## Usage 
 ${data.Usage}
+
 ## Installation
 *${data.Install}*
-## Testing
+
+## Test
 ${data.Test}
+
 ## License
 ${data.License}
+
 ## Deployment
 Live Recording?: ${data.Recording}  
+
 Screenshot?: ${data.Screenshot}
-![](images/Deployed.png)
+![](pic/Deployed.png)
+
 ### Questions
 If you have any further questions about the application:
 Email: ${data.Email}
 
-GitHub: www.github.com/${data.Git}
+GitHub: www.github.com/${data.Username}
 `}
 
 module.exports = generateMarkdown;
