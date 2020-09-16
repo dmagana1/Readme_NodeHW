@@ -40,7 +40,7 @@ const questions = [
     
     {
         type: "input",
-        name: "Colab",
+        name: "Contributors",
         message: "Please Provide name of indivduals contributing on Project."
     },
 
@@ -53,23 +53,17 @@ const questions = [
 
     {
         type: "input",
-        name: "Dependencies",
+        name: "Install",
         message: "What Command Should be Run to Install Dependencies?",
         default: "npm install"
     },
 
     {
         type: "input",
-        name: "test",
+        name: "Test",
         message: "What Command Should be Run to Run Tests?",
         default: "npm run"
-    },
-
-    {
-        type: "input",
-        name: "repo",
-        message: "What Does the User Need to Know about using the Repo"
-    },
+    }
 
 ];
 
@@ -86,7 +80,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then(answers => {
     // generateMD(answers);
-    writeToFile(`readme.MD`, generate(answers));
+    writeToFile(`README.md`, generate(answers));
     });
 }
 
