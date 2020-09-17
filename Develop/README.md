@@ -1,5 +1,5 @@
 
-# Good Readme
+# Good Readme Maker
 [![License](https://img.shields.io/badge/License-None-blue.svg)](https://opensource.org/licenses/None)
 ## Table of Contents
  - [Description](#Description)
@@ -13,10 +13,10 @@
  - [Questions](#Questions)
 
 ## Description
-This project will help user create a good readme
+This is a project about creating a Readme file throught a CLi program using Node and Javascript. 
 
 ## Keywords
-*Node, Javascript, Readme*
+*Node, Javascript, JSON, Readme*
 
 ## Contributors
 Diane Magana
@@ -34,9 +34,9 @@ npm run
 None
 
 ## Deployment
-Live Recording?:   
+Live Recording?: https://drive.google.com/file/d/1-8zqbgW-I2fTHsz8omTS7uDAHFbIujri/view?usp=sharing  
 
-Screenshot?: questions.JPG
+Screenshot?: 
 ![](pic/Deployed.png)
 
 ### Questions
